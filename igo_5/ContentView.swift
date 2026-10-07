@@ -1,9 +1,16 @@
 import SwiftUI
 import Playgrounds
 
+func NN(b: Int) -> Int {
+    return b + 1
+}
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        let a = "asdfgh"
+        var b = 2
+        var c = NN(b: b)
+        Text("Hello, world!\(a)\(b) \(c)")
             .padding()
     }
 }
@@ -14,4 +21,6 @@ struct ContentView: View {
 
 #Playground {
     _ = 1 + 2
+    2+2
+    
 }
